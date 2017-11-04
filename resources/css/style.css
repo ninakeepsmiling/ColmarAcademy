@@ -303,7 +303,7 @@ footer {
   display: inline;
 }
 /* Media queries for mobile width was determined by where the breakpoint looked necessary */
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px)
+@media only screen and (max-width:743px)
 /*@media screen and (max-width: 743px)*/{
   #fullsize,
   .article,
