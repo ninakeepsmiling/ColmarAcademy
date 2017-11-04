@@ -296,4 +296,45 @@ footer {
 .tc p{
   display: inline;
 }
-/* Media queries for mobile */
+/* Media queries for mobile width was determined by where the breakpoint looked necessary */
+@media only screen and (max-width: 743px) {
+  #fullsize {
+    display: none;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .company span {
+    display: none;
+  }
+#mobile-nav li {
+  padding-right: 2rem;
+}
+.main-banner {
+  flex-direction: column;
+  padding: 0;
+}
+.bannerphoto {
+  padding: 0;
+}
+.container {
+  max-width: 100%;
+}
+.container2 {
+  max-width: 100%;
+}
+.bannertext {
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+
+  @media only screen and (min-width: 743px) {
+    #mobile-nav {
+      display: none;
+    }
+}
